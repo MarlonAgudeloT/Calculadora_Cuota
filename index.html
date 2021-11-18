@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora Cuota Credito</title>
+</head>
+<body>
+    <section>
+        <form action="">
+            <h1>
+                Calculadora de Cuota Credito
+            </h1>
+            <label for="input-monto">Monto Credito
+                <input id = "input-monto" type="number">
+            </label>
+            <label for="input-interest">Tasa Efectiva Anual %
+                <input id = "input-interes" type="number">
+            </label>
+            <label for="input-plazo">Plazo en meses
+                <input id = "input-plazo" type="number">
+            </label>
+
+            <button type ="button" onclick = "calculate()">Calcular Cuota
+            </button>
+
+            <p id = "ResultP"></p>
+        </form>
+
+    </section>
+    
+    <script src="./index.js"></script>
+</body>
+</html>
